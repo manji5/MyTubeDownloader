@@ -22,7 +22,7 @@ MyTube Downloader is a robust, high-performance desktop application built with 
 
 No coding knowledge required. You can simply download the executable file.
 
-Go to the [download](./) page of this repository.
+Go to the [download](https://github.com/manji5/MyTubeDownloader/releases/tag/v1.0) page of this repository.
 
 Download the latest project file .
 
@@ -87,3 +87,4 @@ pyinstaller --noconsole --onefile --name="MyTubeDownloader" main.py
 This project is licensed under the MIT License
 
 Developed by: [Fatih Enes/manji5]
+
