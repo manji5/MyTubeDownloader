@@ -30,6 +30,8 @@ Run the application (Just needed latest version of the Python).
 
 Paste a YouTube link, select a folder, and hit DOWNLOAD.
 
+---
+
 🛠️ Installation (For Developers)
 
 If you want to run the source code or contribute, follow these steps:
@@ -39,12 +41,13 @@ Prerequisites
 Python 3.8 or higher
 
 1. Clone the Repository
-
+```
 git clone [https://github.com/manji5/MyTubeDownloader.git](https://github.com/manji5/MyTubeDownloader.git)
 cd MyTubeDownloader
+```
 
 2. Create a Virtual Environment (Recommended)
-
+```
 # Windows
 
 python -m venv venv
@@ -54,16 +57,21 @@ python -m venv venv
 
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Install Dependencies
-
+```
 pip install yt-dlp imageio-ffmpeg
 
 (Tkinter is included with standard Python installations)
+```
 
 4. Run the App
-
+```
 python main.py
+```
+
+---
 
 🧩 Technical Architecture
 
@@ -78,13 +86,17 @@ Auto-Extraction: If both fail, it utilizes the imageio_ffmpeg library to extract
 Building the Executable (.exe)
 
 To build a standalone .exe file using PyInstaller:
-
+```
 pip install pyinstaller
 pyinstaller --noconsole --onefile --name="MyTubeDownloader" main.py
+```
+
+---
 
 📄 License
 
 This project is licensed under the MIT License
 
 Developed by: [Fatih Enes/manji5]
+
 
